@@ -1,6 +1,6 @@
 FROM nicklarsennz/jupyter-base:2.0.0
 
-ENV JULIA_PATH /usr/local/julia
+ENV JULIA_PATH /home/jupyter/julia
 ENV PATH $JULIA_PATH/bin:$PATH
 
 USER root
